@@ -21,7 +21,7 @@ ul {
 }
 
 li a {
-    margin: 0 70px;
+    margin: 0 80px;
     text-decoration: none;
     color: #070606;
 }
@@ -32,10 +32,12 @@ li a {
     padding-top: 5px;
     padding-bottom: 5px;
     justify-content: center;
+    border-style: solid;
+    border-color: rgb(204, 199, 199);
     }
 
 .logo {
-    width: 400px;
+    width: 380px;
 }
 
 .blue {
@@ -43,30 +45,56 @@ li a {
     color: #ffffff;
     text-align: center;
     padding: 8px;
+    margin: 20px 70px;
    
 }
 
 .container {
     display: flex;
+    justify-content: space-evenly;
     flex-direction: row;
 }
 
-.photos {
-    max-height: 300px;
+img {
+    max-height: 340px;  
+    max-width: 625px;
 }
 
 .cta {
     text-decoration: none;
     color: #FFFFFF;
     font-size: 25px;
-    background: #243b91;
-    padding: 15px;
+    background:transparent;
+    padding: 5px 90px;
     border-radius: 40px;
+    border-width: 2px;
+    border-color: #FFFFFF;
+    border-style:solid;
+    position: absolute;
+    margin: 260px 140px;
 }
+
+.cta-button {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 25px;
+    background:transparent;
+    padding: 5px 90px;
+    border-radius: 40px;
+    border-radius: 40px;
+    border-width: 2px;
+    border-color: #FFFFFF;
+    border-style:solid;
+    position: absolute;
+    margin: 260px 90px;
+}
+
+
 
 footer {
     text-align: center;
     padding: 5px;
     background-color: #070606;
     color: #FFFFFF;
+    margin-top: 160px;
 }

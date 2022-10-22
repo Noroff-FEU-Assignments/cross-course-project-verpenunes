@@ -1,29 +1,40 @@
-
+@font-face {
+    font-family: "New Peninim MT";
+    src: url("/fonts/new-peninim-mt-bold-2.woff") format("woff");
+}
 
 body {
+    font-family: 'New Peninim MT', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0px;
-    font-size: 100%;
+    font-size: 90%;
     background-color: #dddddd;
-    font-family: 'Tahoma', Geneva, Verdana, sans-serif;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 0 30px;
+    padding: 0 20px;
     font-weight: bold;
+}
+
+nav svg {
+    text-align: center;
+    margin: 0px 2px 0px 0px;
+    width: 20px;
 }
 
 ul {
     display: flex;
-    padding: 0;
     list-style: none;
+    align-items: center;
+    margin: 5px 10px;
 }
 
 li a {
-    margin: 0 80px;
     text-decoration: none;
     color: #070606;
+    margin: 0px 120px 0px 10px;
+
 }
 
 .yellow {
@@ -37,64 +48,167 @@ li a {
     }
 
 .logo {
-    width: 380px;
+    width: 200px;
 }
 
-.blue {
+h1 {
+    font-family: 'Tahoma', Geneva, Verdana, sans-serif;
     background-color: #3D5EE8;
     color: #ffffff;
     text-align: center;
-    padding: 8px;
-    margin: 20px 70px;
-   
-}
-
-.container {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
+    padding: 6px 5px;
+    font-size: 1.5em;
+    margin: 25px 50px 0px 50px; 
 }
 
 img {
-    max-height: 340px;  
-    max-width: 625px;
+    max-width: 400px;
 }
 
-.cta {
+.photos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photo {
+    margin-top: 30px;
+}
+
+.photo-chair {
+    height: 266px;
+    margin-top: -40px;
+}
+
+.photo-deal {
+    padding: 10px;
+    margin-top: -130px;
+}
+
+.photos a {
     text-decoration: none;
     color: #FFFFFF;
-    font-size: 25px;
-    background:transparent;
+    font-size: 20px;
     padding: 5px 90px;
+    background:transparent;
     border-radius: 40px;
     border-width: 2px;
     border-color: #FFFFFF;
     border-style:solid;
     position: absolute;
-    margin: 260px 140px;
+    margin: -170px;
+
 }
 
-.cta-button {
-    text-decoration: none;
-    color: #FFFFFF;
-    font-size: 25px;
-    background:transparent;
-    padding: 5px 90px;
-    border-radius: 40px;
-    border-radius: 40px;
-    border-width: 2px;
-    border-color: #FFFFFF;
-    border-style:solid;
-    position: absolute;
-    margin: 260px 90px;
+.cta-button-deals :hover {
+    background-color: #7192efb4;
 }
 
+.cta-button-games :hover {
+    background-color: #7192efb4;
+}
 
+.cta-button-vg :hover {
+    background-color: #7192efb4;
+}
+
+svg:hover {
+    cursor: pointer;
+}
+
+.cta-button-vg {
+    padding: 0px;
+    margin-top: 90px;
+    margin-left: 10px;
+}
+
+.cta-button-games {
+    padding: 90px;
+    margin-left: 40px;
+
+}
+
+.cta-button-deals {
+    margin-left: 80px;
+    margin-top: 80px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+i {
+    color: #070606;
+    margin: 0px;
+    width: 30px;
+}
 
 footer {
     text-align: center;
     padding: 5px;
     background-color: #070606;
     color: #FFFFFF;
-    margin-top: 160px;
+}
+
+@media (min-width: 600px){
+    .logo {
+        width: 300px;
+    }
+
+    .photos {
+        display: grid;
+        margin-left: 50px;
+    }
+
+    .photo {
+        justify-self: left;
+        margin-top: 30px;
+    }
+
+    .photo-two {
+        margin-top: -410px;
+        text-align: center;
+        margin-right: 30px;
+    }
+
+    .photo-deal {
+        justify-self: right;
+        margin-top: -630px;
+        margin-right: 80px;
+        width: 340px;
+
+    }
+
+    .cta-button-vg {
+        justify-self: left;
+        margin-left: 210px;
+    }
+
+    .cta-button-games {
+        justify-self: center;
+        margin-top: -90px;
+
+    }
+
+    .cta-button-deals {
+        justify-self: right;
+        margin-right: 180px;
+        margin-top: -170px;
+    }
+
+    h1 {
+        margin-right: 35px;
+    }
+
+    .social-media {
+        display: flex;
+        justify-content: right;
+        margin: 0px 80px 0px;
+        padding: 20px;
+        height: 100%;
+
+    }
+
 }

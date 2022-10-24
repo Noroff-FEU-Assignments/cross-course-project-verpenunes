@@ -23,7 +23,6 @@ nav {
     font-weight: bold;
     margin-right: 25px;
     z-index: 1000px;
-
 }
 
 nav li {
@@ -199,10 +198,9 @@ footer {
 
     ul {
         display: flex;
+        margin: 5px 5px;
         list-style: none;
-        align-items: center;
-        margin: 5px 225px;
-        padding: 0;
+        padding: 0px 100px;
     }
 
     header label {

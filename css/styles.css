@@ -147,14 +147,14 @@ i {
 }
 
 .social-media {
-        display: flex;
-        justify-content: center;
-    }
+    display: flex;
+    justify-content: center;
+}
 
-.icons {
-    margin-bottom: 20px;
-    margin-top: 400px;
-
+.fa-brands {
+    font-size: 25px;
+    padding: 20px;
+    margin-top: 20px;
 }
 
 footer {
@@ -212,11 +212,6 @@ h2, h3 {
 
 h2 {
     font-size: 30px;
-}
-
-.social-media {
-    margin-top: 400px;
-    margin-bottom: 10px;
 }
 
 /* Contact us page */
@@ -372,10 +367,6 @@ textarea {
         width: 150px;
     }
 
-    i {
-        font-size: 20px;
-    }
-
     svg {
         display: none;
     }
@@ -450,16 +441,13 @@ textarea {
         padding: 5px 90px;
         margin: 180px   
     }
-
-    .fa-brands {
-        font-size: 30px;
-    }
 }
 
 @media (min-width: 800px){
    .logo {
     width: 260px;
     }
+
     nav li {
         display: flex;
         padding: 0 110px 0 120px;
@@ -468,12 +456,6 @@ textarea {
     .photos {
         display: flex;
         flex-direction: row;
-    }
-
-    .fa-brands {
-        margin: 20px;
-        font-size: 40px;
-        padding: 10px;
     }
 }
 

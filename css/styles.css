@@ -17,24 +17,33 @@ html, body {
 }
 
 header {
-    align-items: left;
-    justify-content: space-around;
-    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     padding: 5px 0px 5px 0px;
 }
 
+nav {
+    margin-left: 25px;
+    display: none;
+    position: fixed;
+    top: 15px;
+    z-index: 1000;
+    right: 0px;
+}
+
 nav li {
+    display: block;
     align-items: center;
     font-size: 1em;
     font-weight: bold;
-    padding: 5px 5px;
     margin-top: -20px;
     list-style: none;
 }
 
 nav a {
-    display: flex;
     text-decoration: none;
+    color: #070606;
 }
 
 nav ul {
@@ -47,6 +56,10 @@ nav ul {
 
 #hamburger-menu:checked ~ nav {
     display: block;
+}
+
+.underline {
+    text-decoration: underline;
 }
 
 svg {
@@ -339,6 +352,22 @@ textarea {
 
 /* Media Queries - Home Page */
 @media screen and (min-width: 400px){
+
+    nav ul {
+        flex-direction: column;
+        margin-left: -400px;
+        background:#3D5EE8;
+    }
+
+    nav li {
+        display: block;
+        padding: 20px 10px;
+    }
+
+    label, input {
+        margin-left: -320px;
+    }
+
     .logo {
         width: 150px;
     }
@@ -353,6 +382,16 @@ textarea {
 }
 
 @media (min-width: 600px){
+    nav {
+        display: block;
+        position: static;
+    }
+
+    nav ul {
+        flex-direction: row;
+        margin-left: 0;
+    }
+
     .logo {
         width: 200px;
     }

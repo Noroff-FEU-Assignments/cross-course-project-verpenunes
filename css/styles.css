@@ -4,26 +4,29 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     font-family: 'New Peninim MT', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0px;
+    min-height: 100vh;
     font-size: 90%;
     background-color: #dddddd;
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
 }
 
-html, body {
-    min-height: 100%;
+main {
+    flex-grow: 1;
 }
 
+/* Nav Menu */
 header {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding: 5px 0px 5px 0px;
 }
 
 nav {
+    display: flex;
     margin-left: 25px;
     display: none;
     position: fixed;
@@ -33,21 +36,18 @@ nav {
 }
 
 nav li {
-    display: block;
+    display: flex;
     align-items: center;
     font-size: 1em;
     font-weight: bold;
-    margin-top: -20px;
+    margin-top: 0px;
     list-style: none;
+    height: 5px;
 }
 
 nav a {
     text-decoration: none;
     color: #070606;
-}
-
-nav ul {
-    display: flex;
 }
 
 #hamburger-menu {
@@ -85,17 +85,17 @@ h1 {
     font-family: 'Tahoma', Geneva, Verdana, sans-serif;
     background-color: #3D5EE8;
     color: #ffffff;
-    line-height: 25px;
+    line-height: 28px;
     text-align: center;
-    padding: 5px 5px;
-    font-size: 1.5em;
+    padding: 5px 10px 5px 10px;
+    font-size: 1.3em;
+    letter-spacing: 0.1em;
 }
 
 img {
     display: flex;
     justify-content: space-between;
     max-width: 300px;
-    margin-bottom: 40px;
 }
 
 .photos a:hover {
@@ -106,25 +106,25 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 30px;
 }
 
 .photo {
     display: flex;
     justify-content: space-evenly;
     margin-top: 30px;
+    width: 100%;
 }
 
 .photo-chair {
     height: 200px;
     margin-top: -20px;
+    width: 100%;
 }
 
 .photos a {
     text-decoration: none;
     color: #FFFFFF;
     font-size: 20px;
-    padding: 5px 50px;
     background:transparent;
     border-radius: 40px;
     border-width: 2px;
@@ -138,12 +138,22 @@ img {
     margin-top: 120px;
 }
 
-svg:hover {
-    cursor: pointer;
+.video-game {
+    padding: 5px 40px;
 }
 
-i {
-    color: #070606;
+.pc-game {
+    padding: 5px 45px;
+    letter-spacing: 0.1em;
+}
+
+.deals {
+    padding: 5px 62px;
+    letter-spacing: 0.1em;
+}
+
+svg:hover {
+    cursor: pointer;
 }
 
 .social-media {
@@ -158,11 +168,11 @@ i {
 }
 
 footer {
-    bottom: 0;
     text-align: center;
     padding: 5px;
     background-color: #070606;
     color: #FFFFFF;
+    line-height: 20px;
 }
 
 /* Games Page */
@@ -173,18 +183,17 @@ footer {
 }
 
 .product-list {
-    margin-bottom: 400px;
+    margin-bottom: 60px;
+
 }
 
 .products {
     margin: auto;
-    margin-bottom: 50px;
 }
 
 .products a {
     display: flex;
     justify-content: center;
-
 }
 
 .cta {
@@ -250,15 +259,10 @@ textarea {
     margin-bottom: 200px;
 }
 
-.contact {
-    margin-bottom: 550px;
-}
-
 .contact p {
     display: flex;
     justify-content: center;
 }
-
 
 /* Your Cart page */
 .product-photo {
@@ -313,19 +317,22 @@ textarea {
 
 /* Media Queries - Home Page */
 @media screen and (min-width: 400px){
+    header, .fa-brands {
+        color:#070606;
+        justify-content: right;
+        margin-right: 30px;
+        padding: 5px;
+    }
+
     nav ul {
-        flex-direction: column;
-        margin-left: -400px;
-        background:#3D5EE8;
+        display: block;
+        padding: 5px 10px;
+        background: #dddddd;
+
     }
 
     nav li {
-        display: block;
-        padding: 20px 10px;
-    }
-
-    label, input {
-        margin-left: -320px;
+        padding: 15px 10px;
     }
 
     .logo {
@@ -339,28 +346,22 @@ textarea {
 
 @media (min-width: 600px){
     nav {
-        display: block;
+        display: flex;
         position: static;
     }
 
     nav ul {
-        flex-direction: row;
-        margin-left: 0;
+        display: flex;
     }
 
     .logo {
-        width: 200px;
-    }
-
-    nav {
-        display: flex;
+        width: 180px;
     }
 
     nav li {
         display: flex;
         justify-content: space-evenly;
-        padding: 0 50px;
-        margin-bottom: -20px;
+        padding: 0px 50px;
     }
 
     svg {
@@ -374,8 +375,6 @@ textarea {
     h1 {
         display: flex;
         justify-content: center;
-        margin-right: 10px;
-        margin-left: 10px;
     }
 
     header label {
@@ -409,13 +408,14 @@ textarea {
 }
 
 @media (min-width: 800px){
-   .logo {
-    width: 260px;
-    }
-
     nav li {
         display: flex;
-        padding: 0 110px 0 120px;
+        justify-content: space-evenly;
+        padding: 0px 110px;
+    }
+
+   .logo {
+    width: 200px;
     }
 
     .photos {
@@ -435,6 +435,7 @@ textarea {
 @media (min-width: 600px){
     .product-list {
         display: grid;
+        column-gap: 70px;
         grid-template-columns: 1fr 1fr;
     }
 }
@@ -442,6 +443,7 @@ textarea {
 @media (min-width: 800px) {
     .product-list {
         display: grid;
+        column-gap: 100px;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
 }
@@ -536,7 +538,7 @@ textarea {
 @media (min-width: 600px) {
     .product-photo {
         height: 560px;
-        width: 500px;
+        width: 380px;
     }
 
     .pingpong-photo {
@@ -576,8 +578,6 @@ textarea {
     .cart {
         font-size: 25px;
     }
-
-    
 }
 
 @media (min-width: 800px) {
@@ -593,7 +593,6 @@ textarea {
 
     .cart {
         margin: auto;
-
         font-size: 20px;
     }
 

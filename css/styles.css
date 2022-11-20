@@ -152,7 +152,7 @@ img {
   letter-spacing: 0.1em;
 }
 
-svg:hover {
+svg, header i, #buy:hover {
   cursor: pointer;
 }
 
@@ -282,12 +282,6 @@ textarea {
 
 .number {
     display: flex;
-  }
-
-#buy {
-    width: 70px;
-    height: 40px;
-    padding: 5px 15px;
 }
 
 .cart {
@@ -578,17 +572,13 @@ textarea {
   }
   .easy {
     margin: 0 auto;
-    padding-top: 40px;
+    padding-top: 60px;
   }
 
   .number p {
     margin-top: -130px;
     margin-left: -70px;
     font-size: 30px;
-  }
-
-  #buy {
-    margin-top: -80px;
   }
 
   .cart {
@@ -599,7 +589,7 @@ textarea {
 @media (min-width: 800px) {
   .product-photo {
     display: flex;
-    height: 400px;
+    height: 500px;
     width: 800px;
   }
 
@@ -608,13 +598,14 @@ textarea {
   }
 
   .number p {
-    margin-top: -140px;
+    margin-top: -150px;
     font-size: 40px;
   }
 
   #buy {
-    margin-top: -80px;
+    width: 50px;
   }
+
 }
 
 /* Thank you page */

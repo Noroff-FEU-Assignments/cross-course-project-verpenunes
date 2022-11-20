@@ -9,7 +9,7 @@ body {
   font-family: "New Peninim MT", Tahoma, Geneva, Verdana, sans-serif;
   min-height: 100vh;
   font-size: 90%;
-  background-color: #DDDDDD;
+  background-color: #dddddd;
   padding: 0px;
   margin: 0px;
 }
@@ -83,8 +83,8 @@ svg {
 
 h1 {
   font-family: "Tahoma", Geneva, Verdana, sans-serif;
-  background-color: #3D5EE8;
-  color: #FFFFFF;
+  background-color: #3d5ee8;
+  color: #ffffff;
   line-height: 28px;
   text-align: center;
   padding: 5px 10px 5px 10px;
@@ -152,7 +152,9 @@ img {
   letter-spacing: 0.1em;
 }
 
-svg, header i, #buy:hover {
+svg,
+header i,
+#buy:hover {
   cursor: pointer;
 }
 
@@ -198,8 +200,8 @@ footer {
 }
 
 .cta {
-  background-color: #F21B1B;
-  color: #FFFFFF;
+  background-color: #f21b1b;
+  color: #ffffff;
   text-align: center;
   font-size: 1em;
   text-decoration: none;
@@ -268,41 +270,45 @@ textarea {
 
 /* Your Cart page */
 .white-box {
-    display: grid;
-    justify-content: center;
+  display: grid;
+  justify-content: center;
+}
+
+.pingpong-photo img {
+  margin-top: 30px;
 }
 
 .product-photo {
-   display: flex;
-   background-color: #ffffff;
-   border-style: solid;
-   border-radius: 5px;
-   border-width: 1px;
+  display: flex;
+  background-color: #ffffff;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1px;
 }
 
 .number {
-    display: flex;
+  display: flex;
 }
 
 .cart {
-    list-style: none;
-    padding: 0;
-    width: 100%;
+  list-style: none;
+  padding: 0;
+  width: 100%;
 }
 
 .cart p::after {
-    content: "";
-    display: block;
-    border: 1px solid rgb(14, 1, 1);
-    padding: 0;
+  content: "";
+  display: block;
+  border: 1px solid rgb(14, 1, 1);
+  padding: 0;
 }
 
 .pingpong-photo p {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .easy {
-  color: #3DBE50;
+  color: #3dbe50;
 }
 
 .add-cart-button,
@@ -333,287 +339,10 @@ textarea {
 
 .continue {
   text-decoration: none;
-  background-color: #3DBE50;
+  background-color: #3dbe50;
   border-radius: 10px;
-  color: #FFFFFF;
+  color: #ffffff;
   white-space: nowrap;
 }
 
-/* Media Queries - Home Page */
-@media screen and (min-width: 400px) {
-  header,
-  .fa-brands {
-    display: flex;
-    justify-content: center;
-    margin-right: 30px;
-    padding: 5px;
-  }
 
-  header label {
-    margin-left: 220px;
-  }
-
-  nav ul {
-    display: block;
-    padding: 10px 10px;
-    background: #DDDDDD;
-  }
-
-  nav li {
-    padding: 20px 25px;
-  }
-
-  .logo {
-    width: 150px;
-  }
-
-  svg {
-    display: none;
-  }
-}
-
-@media (min-width: 600px) {
-  nav {
-    display: flex;
-    position: static;
-  }
-
-  nav ul {
-    display: flex;
-  }
-
-  .logo {
-    width: 180px;
-  }
-
-  nav li {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 0px 50px;
-  }
-
-  svg {
-    display: flex;
-    margin-right: 5px;
-    margin-left: -5px;
-  }
-
-  h1 {
-    display: flex;
-    justify-content: center;
-  }
-
-  header label {
-    display: none;
-  }
-
-  img {
-    display: flex;
-    justify-content: space-between;
-    max-width: 420px;
-    margin-bottom: 40px;
-  }
-
-  .photos {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-  }
-
-  .photo-chair {
-    margin-top: 0px;
-    height: 280px;
-  }
-
-  .photo a {
-    white-space: nowrap;
-    padding: 5px 90px;
-    margin: 180px;
-  }
-}
-
-@media (min-width: 800px) {
-  nav li {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    padding: 0px 110px;
-  }
-
-  .logo {
-    width: 200px;
-  }
-
-  .photos {
-    display: flex;
-    flex-direction: row;
-  }
-}
-
-/* Media Query - List of Games Page */
-@media (min-width: 400px) {
-  .product-list {
-    display: flex;
-    flex-direction: column;
-  }
-}
-
-@media (min-width: 600px) {
-  .product-list {
-    display: grid;
-    column-gap: 70px;
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media (min-width: 800px) {
-  .product-list {
-    display: grid;
-    column-gap: 100px;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  }
-}
-
-/* Media queries - About us page */
-@media (min-width: 400px) {
-  .about {
-    max-width: 350px;
-  }
-}
-
-@media (min-width: 600px) {
-  .about {
-    max-width: 490px;
-  }
-}
-
-@media (min-width: 800px) {
-  .about {
-    max-width: 600px;
-  }
-}
-
-/* Media query - Contact us page */
-@media (min-width: 400px) {
-  input, #text-box {
-    margin: 10px 90px;
-  }
-
-  .contact p {
-    display: flex;
-    justify-content: center;
-    font-size: 20px;
-  }
-}
-
-@media (min-width: 600px) {
-  input, #text-box {
-    margin: 10px 200px;
-  }
-
-  .contact p {
-    font-size: 30px;
-    margin: 25px;
-  }
-}
-
-@media (min-width: 800px) {
-  .contact p {
-    font-size: 40px;
-  }
-}
-
-/* Media Query - You cart page */
-@media (min-width: 400px) {
-  .product-photo {
-    display: flex;
-    flex-direction: column;
-    grid-template-columns: 1fr;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding: 0 30px 50px;
-    align-items: center;
-  }
-
-  .product-price {
-    font-size: 30px;
-  }
-
-  .number p {
-    margin-left: 10px;
-    margin-top: 10px;
-  }
-
-  .cart {
-    font-size: 15px;
-  }
-}
-
-@media (min-width: 600px) {
-  .product-photo {
-    height: 560px;
-    width: 380px;
-  }
-
-  .pingpong-photo p {
-    display: inline-block;
-    vertical-align: top;
-    font-size: 25px;
-  }
-
-  .games {
-    display: inline-block;
-  }
-
-  select {
-    margin-left: 130px;
-    margin-top: -50px;
-  }
-  .easy {
-    margin: 0 auto;
-    padding-top: 60px;
-  }
-
-  .number p {
-    margin-top: -130px;
-    margin-left: -70px;
-    font-size: 30px;
-  }
-
-  .cart {
-    font-size: 20px;
-  }
-}
-
-@media (min-width: 800px) {
-  .product-photo {
-    display: flex;
-    height: 500px;
-    width: 800px;
-  }
-
-  .cart {
-    font-size: 25px;
-  }
-
-  .number p {
-    margin-top: -150px;
-    font-size: 40px;
-  }
-
-  #buy {
-    width: 50px;
-  }
-
-}
-
-/* Thank you page */
-@media (min-width: 400px) {
-  h2 {
-    font-size: 20px;
-  }
-  .continue {
-    padding: 8px 70px 8px 70px;
-  }
-}

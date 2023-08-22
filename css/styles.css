@@ -19,25 +19,9 @@ main {
 }
 
 /* Nav Menu */
-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
-
-nav {
-  display: flex;
-  margin-left: 25px;
-  display: none;
-  position: fixed;
-  top: 15px;
-  z-index: 1000;
-  right: 0px;
-}
-
 nav li {
-  display: flex;
   align-items: center;
+  margin: 0 15px;
   font-size: 1em;
   font-weight: bold;
   margin-top: 0px;

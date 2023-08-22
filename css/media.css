@@ -1,5 +1,5 @@
 /* Media Queries - Home Page */
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 300px) {
     header {
       display: flex;
       justify-content: center;
@@ -17,6 +17,8 @@
   
     nav ul {
       background: #dddddd;
+      padding-bottom: 30px;
+      padding-left: 10px;
     }
 
     nav li {
@@ -104,7 +106,7 @@
   }
   
   /* Media Query - List of Games Page */
-  @media (min-width: 400px) {
+  @media (min-width: 300px) {
     .product-list {
       display: flex;
       flex-direction: column;
@@ -128,7 +130,7 @@
   }
   
   /* Media queries - About us page */
-  @media (min-width: 400px) {
+  @media (min-width: 300px) {
     .about {
       max-width: 350px;
     }
@@ -147,7 +149,7 @@
   }
   
   /* Media query - Contact us page */
-  @media (min-width: 400px) {
+  @media (min-width: 300px) {
     input,
     #text-box {
       margin: 10px 90px;
@@ -179,7 +181,7 @@
   }
   
   /* Media Query - You cart page */
-  @media (min-width: 400px) {
+  @media (min-width: 300px) {
     .product-photo {
       display: flex;
       flex-direction: column;
@@ -278,7 +280,7 @@
   }
   
   /* Thank you page */
-  @media (min-width: 400px) {
+  @media (min-width: 300px) {
     h2 {
       font-size: 20px;
     }

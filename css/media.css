@@ -1,20 +1,26 @@
 /* Media Queries - Home Page */
 @media screen and (min-width: 400px) {
-    header,
-    .fa-brands {
+    header {
       display: flex;
       justify-content: center;
       margin-right: 30px;
       padding: 5px;
+      position: relative;
     }
-  
-    header label {
-      margin-left: 220px;
+
+    nav, #hamburger-menu {
+      display: none;
+      position: absolute;
+      top: 0px;
+      left: 30px;
     }
   
     nav ul {
-      display: block;
       background: #dddddd;
+    }
+
+    nav li {
+      margin-top: 20px;
     }
   
     .logo {
@@ -87,12 +93,6 @@
   }
   
   @media (min-width: 800px) {
-    nav li {
-      display: flex;
-      align-items: center;
-      justify-content: space-evenly;
-    }
-  
     .logo {
       width: 200px;
     }

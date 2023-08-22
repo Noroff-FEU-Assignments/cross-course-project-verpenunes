@@ -101,6 +101,13 @@
   
     .photos {
       display: flex;
+      flex-direction: column;
+    }
+  }
+
+  @media (min-width: 840px) {
+    .photos {
+      display: flex;
       flex-direction: row;
     }
   }

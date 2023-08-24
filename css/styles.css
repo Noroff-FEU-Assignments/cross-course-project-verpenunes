@@ -185,7 +185,7 @@ footer {
 
 .cta {
   background-color: #f21b1b;
-  color: #ffffff;
+  color: #fffefe;
   text-align: center;
   font-size: 1em;
   text-decoration: none;
@@ -297,7 +297,7 @@ textarea {
 
 .add-cart-button,
 .cta {
-  padding: 10px 40px;
+  padding: 10px 30px;
 }
 
 /* Thank You Page */

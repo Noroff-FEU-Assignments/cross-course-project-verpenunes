@@ -12,8 +12,8 @@
     nav, #hamburger-menu {
       display: none;
       position: absolute;
-      top: 0px;
-      left: 30px;
+      top: 8px;
+      left: 50px;
     }
   
     nav ul {
@@ -39,6 +39,11 @@
   
     svg {
       display: none;
+    }
+
+    .fa-solid {
+      font-size: 19px;
+      margin-left: 30px;
     }
   }
   

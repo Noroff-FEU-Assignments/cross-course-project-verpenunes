@@ -181,21 +181,22 @@ footer {
 .products a {
   display: flex;
   justify-content: center;
+  padding: 6px 40px;
 }
 
 .cta {
   background-color: #f21b1b;
   color: #fffefe;
   text-align: center;
-  font-size: 1em;
+  font-size: 13px;
   text-decoration: none;
-  border-radius: 20px;
-  padding: 10px;
+  border-radius: 50px;
 }
 
 /* About us Page */
 .about {
   display: flex;
+  flex-direction: column;
   margin: 0 auto;
   margin-top: 20px;
 }
@@ -258,11 +259,7 @@ textarea {
   justify-content: center;
 }
 
-.pingpong-photo img {
-  margin-top: 30px;
-}
-
-.product-photo {
+.container-photo {
   display: flex;
   background-color: #ffffff;
   border-style: solid;
@@ -271,7 +268,8 @@ textarea {
 }
 
 .number {
-  display: flex;
+  display:flex;
+  align-items: center;
 }
 
 .cart {
@@ -287,17 +285,16 @@ textarea {
   padding: 0;
 }
 
-.pingpong-photo p {
-  font-size: 20px;
+.add-cart-button {
+  transition: transform 0.4s;
+}
+
+.add-cart-button:hover{
+  transform: scale(1.3);
 }
 
 .easy {
   color: #3dbe50;
-}
-
-.add-cart-button,
-.cta {
-  padding: 10px 30px;
 }
 
 /* Thank You Page */

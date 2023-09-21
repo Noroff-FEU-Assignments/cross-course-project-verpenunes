@@ -21,7 +21,7 @@
       flex-direction: column;
       background: #dddddd;
       border-style: solid;
-      border-color: #ccc6c6;
+      border-color: #ded6d6;
       margin-top: 18px;
       padding-bottom: 30px;
       padding-top: 0px;
@@ -45,6 +45,30 @@
       font-size: 19px;
       margin-left: 30px;
     }
+
+    footer {
+      display: flex;
+      flex-direction: column;
+      margin-top: 30px;
+    }
+
+    .footer-div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 15px;
+    }
+
+    .social-media, .footer-link {
+      display: flex;
+      justify-content: center;
+      margin-left: 0px;
+      font-size: 13px;
+    }
+
+    .footer-products {
+      margin-left: -40px;
+    }
   }
   
   @media (min-width: 600px) {
@@ -62,6 +86,7 @@
     nav ul {
       display: flex;
       flex-direction: row;
+      border-style: none;
     }
   
     .logo {
@@ -112,6 +137,11 @@
       padding: 5px 90px;
       margin: 180px;
     }
+
+    footer {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
   }
   
   @media (min-width: 800px) {
@@ -122,6 +152,11 @@
     .photos {
       display: flex;
       flex-direction: column;
+    }
+
+    footer {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
     }
   }
 
@@ -278,18 +313,18 @@
     }
 
     .number {
-      margin-left: 30px;
+      margin-left: 40px;
       margin-top: -100px;
     }
 
     #buy {
       width: 50px;
-      margin-left: 140px;
+      margin-left: 50px;
       margin-top: 3px;
     }
   
     .number span {
-      margin-left: 100px;
+      margin-left: 35px;
       font-size: 30px;
     }
   
@@ -315,7 +350,8 @@
     }
   
     .pingpong-photo p {
-      font-size: 30px;
+      font-size: 28px;
+      margin-left: 20px;
     }
   
     .pingpong-photo img {
@@ -347,6 +383,7 @@
     #buy {
       width: 50px;
       margin-top: 2px;
+      margin-left: 50px;
     }
 
     .add-cart-button,

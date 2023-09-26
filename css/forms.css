@@ -1,0 +1,30 @@
+button {
+    background: red;
+    border: none;
+    width: 200px;
+    padding: 1rem;
+    color: white;
+    cursor: pointer;
+    border-radius: 0.4rem;
+}
+
+button:disabled {
+    background: lightgrey;
+}
+
+label {
+    display: block;
+}
+
+.form-error {
+    display: none;
+    color: red;
+    font-size: 0.9rem;
+}
+
+.message {
+    background: green;
+    padding: 1rem;
+    color: white;
+    border-radius: 1rem;
+}

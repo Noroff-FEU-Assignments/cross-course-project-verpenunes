@@ -10,7 +10,7 @@ const button = document.querySelector("button");
 
 function validateForm(event) {
     event.preventDefault();
-
+  
     if (checkLength(enterName.value, 0) === true) {
         nameError.style.display = "none";
     } else {

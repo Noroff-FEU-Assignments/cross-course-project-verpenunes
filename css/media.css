@@ -216,6 +216,11 @@
   }
   
   /* Media query - Contact us page */
+  @media (min-width: 800px) {
+    form {
+      display: flex;
+    }
+  }
   
   /* Media Query - You cart page */
   @media (min-width: 300px) {

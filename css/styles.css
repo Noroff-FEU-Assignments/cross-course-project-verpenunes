@@ -172,11 +172,20 @@ footer {
 
 .footer-link {
   text-decoration: none;
-  color: white;
+  color: whitesmoke;
 }
 
 footer li {
   list-style: none;
+}
+
+.logoFooter {
+  width: 24%;
+}
+
+.copyRight {
+  font-size: 12px;
+
 }
 
 /* List of Games Page */
@@ -254,10 +263,11 @@ form, .contact-form {
 }
 
 input {
-  width: 50%;
+  width: 96%;
   margin-top: 10px;
   padding: 6px;
   font-size: 12px;
+  margin-right: 195px;
 }
 
 button {
@@ -266,12 +276,12 @@ button {
   width: 200px;
   padding: 1rem;
   color: white;
-  margin-top: 12px;
   cursor: pointer;
   border-radius: 0.4rem;
   display: flex;
   justify-content: center;
   margin: 0 auto;
+  margin-top: 15px;
 }
 
 button:disabled {

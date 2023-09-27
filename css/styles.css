@@ -246,56 +246,7 @@ h2 {
 }
 
 /* Contact us page */
-input,
-textarea {
-  border: 1px solid #4d4a4a;
-  border-radius: 5px;
-  margin: 10px 250px 10px 250px;
-  padding: 10px;
-}
 
-textarea {
-  height: 65%;
-  min-height: 120px;
-}
-
-.form-wrapper {
-  max-width: 900px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.form-wrapper label {
-  margin: auto;
-  font-size: 20px;
-  padding-top: 20px;
-}
-
-.form-wrapper > * {
-  display: flex;
-  flex-direction: column;
-}
-
-.cta-submit {
-  text-align: center;
-  margin-bottom: 100px;
-}
-
-.cta-submit input {
-  background-color: #3d5ee8;
-  color: white;
-  border: #3d5ee8;
-  transition: transform 0.4s;
-}
-
-.cta-submit input:hover {
-  transform: scale(1.2);
-}
-
-.contact p {
-  display: flex;
-  justify-content: center;
-}
 
 /* Your Cart page */
 .white-box {

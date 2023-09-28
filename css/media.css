@@ -223,7 +223,69 @@
   }
   
   /* Media query - Contact us page */
+  @media (min-width: 300px) {
+    .contact-form p {
+      font-size: 20px;
+    }
+
+    input {
+      width: 68%;
+    }
+
+    textarea {
+      width: 70%;
+    }
+
+    .form-box {
+      margin-left: 100px;
+    }
+  }
+
+  @media (min-width: 600px) {
+    .contact-form p {
+      font-size: 24px;
+    }
+
+    .contact-form {
+      font-size: 22px;
+    }
+
+    input {
+      width: 88%;
+      font-size: 12px;
+    }
+
+    textarea {
+      width: 90%;
+    }
+
+    .form-box {
+      margin-left: 50px;
+    }
+
+    button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  
   @media (min-width: 800px) {
+    .contact-form p {
+      font-size: 30px;
+    }
+
+    input {
+      width: 98%;
+    }
+
+    textarea {
+      width: 100%;
+    }
+
+    .form-box {
+      margin-left: 8px;
+    }
 
   }
   

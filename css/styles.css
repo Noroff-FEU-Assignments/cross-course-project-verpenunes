@@ -54,7 +54,7 @@ nav a:hover {
 svg {
   font-weight: bold;
   color: #070606;
-  width: 15px;
+  width: 14px;
 }
 
 .yellow {
@@ -69,6 +69,8 @@ svg {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+/* Home Page */
 
 h1 {
   font-family: "Tahoma", Geneva, Verdana, sans-serif;
@@ -185,7 +187,6 @@ footer li {
 
 .copyRight {
   font-size: 12px;
-
 }
 
 /* List of Games Page */
@@ -263,7 +264,7 @@ form, .contact-form {
 }
 
 input {
-  width: 96%;
+  width: 100%;
   margin-top: 10px;
   padding: 6px;
   font-size: 12px;
@@ -271,7 +272,7 @@ input {
 }
 
 button {
-  background: red;
+  background: #D2232A;
   border: none;
   width: 200px;
   padding: 1rem;
@@ -302,10 +303,10 @@ label {
 
 .message {
   margin-top: 25px;
-  background: green;
+  background: rgb(62, 165, 62);
   padding: 1rem;
   color: white;
-  border-radius: 1rem;
+  border-radius: 0.4rem;
   margin-bottom: 1rem;
 }
 

@@ -69,6 +69,10 @@
     .footer-products {
       margin-left: -40px;
     }
+
+    .logoFooter {
+      width: 24%;
+    }
   }
   
   @media (min-width: 600px) {
@@ -142,6 +146,10 @@
       display: grid;
       grid-template-columns: repeat(3, 1fr);
     }
+
+    .logoFooter {
+      width: 48%;
+    }
   }
   
   @media (min-width: 800px) {
@@ -165,12 +173,20 @@
       margin-top: 17px;
       padding: 0;
     }
+
+    .logoFooter {
+      width: 32%;
+    }
   }
 
   @media (min-width: 840px) {
     .photos {
       display: flex;
       flex-direction: row;
+    }
+
+    .copyRight {
+      font-size: 12px;
     }
   }
   
@@ -224,6 +240,15 @@
   
   /* Media query - Contact us page */
   @media (min-width: 300px) {
+    .form-box h2 {
+      margin-right: 100px;
+      font-size: 20px;
+    }
+
+    hr {
+      margin-right: 100px;
+    }
+
     .contact-form p {
       font-size: 20px;
     }
@@ -242,6 +267,14 @@
   }
 
   @media (min-width: 600px) {
+    .form-box h2 {
+      margin-right: 30px;
+      font-size: 24px;
+    }
+
+    hr {
+      margin-right: 50px;
+    }
     .contact-form p {
       font-size: 24px;
     }
@@ -271,6 +304,15 @@
   }
   
   @media (min-width: 800px) {
+    .form-box h2 {
+      margin-right: 0px;
+      font-size: 28px;
+    }
+
+    hr {
+      margin-right: 10px;
+    }
+
     .contact-form p {
       font-size: 30px;
     }
@@ -286,7 +328,6 @@
     .form-box {
       margin-left: 8px;
     }
-
   }
   
   /* Media Query - You cart page */

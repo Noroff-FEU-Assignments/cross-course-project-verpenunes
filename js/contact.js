@@ -32,6 +32,7 @@ function validateForm(event) {
 
 form.addEventListener("submit", validateForm);
 
+
 function checkLength(value, len) {
     if (value.trim().length > len) {
         return true;
@@ -56,7 +57,7 @@ textBox.addEventListener("keyup", checkIfButtonIsDisabled);
 function submitForm(event) {
     event.preventDefault();
 
-    message.innerHTML = `<div class="message">Your message has been sent. Thank You!</div>`;
+    message.innerHTML = `<div class="message">Your message has been sent.</div>`;
     form.reset();
 }
 

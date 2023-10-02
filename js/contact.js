@@ -66,7 +66,7 @@ email.addEventListener("keyup", eventChange);
 textBox.addEventListener("keyup", eventChange);
 
 enterName.addEventListener("click", validateForm);
-email.addEventListener("click", validateEmail);
+email.addEventListener("click", validateForm);
 textBox.addEventListener("click", validateForm);
 
 enterName.addEventListener("keyup", checkIfButtonIsDisabled);

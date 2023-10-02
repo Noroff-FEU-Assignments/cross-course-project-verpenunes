@@ -3,7 +3,7 @@
     header {
       display: flex;
       justify-content: left;
-      margin-left: 40px;
+      margin-left: 20px;
       padding: 4px;
       position: relative;
     }
@@ -247,6 +247,7 @@
   @media (min-width: 300px) {
     .contact-form {
       overflow-x: hidden;
+      overflow-y: hidden;
     }
 
     .form-box h2 {

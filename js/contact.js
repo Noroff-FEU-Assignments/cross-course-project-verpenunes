@@ -23,7 +23,7 @@ function validateForm(event) {
         emailError.style.display = "block";
     }
 
-    if (checkLength(textBox.value, 20) === true) {
+    if (checkLength(textBox.value, 10) === true) {
         messageError.style.display = "none";
     } else {
         messageError.style.display = "block";
@@ -42,13 +42,32 @@ function checkLength(value, len) {
 }
 
 function checkIfButtonIsDisabled() {
-    if (checkLength(enterName.value, 0) && checkLength(textBox.value, 20) && validateEmail(email.value)) {
+    if (checkLength(enterName.value, 0) && checkLength(textBox.value, 10) && validateEmail(email.value)) {
         button.disabled = false;
     } else {
         message.innerHTML = "";
         button.disabled = true;
     }
 }
+
+function eventChange(event) {
+    if (checkLength(enterName.value, 2) && checkLength(textBox.value, 10) && validateEmail(email.value)) {
+        emailError.innerHTML = "";
+        messageError.innerHTML = "";
+        nameError.innerHTML = "";
+
+    } else {
+        validateForm(event);
+    }
+}
+
+enterName.addEventListener("keyup", eventChange);
+email.addEventListener("keyup", eventChange);
+textBox.addEventListener("keyup", eventChange);
+
+enterName.addEventListener("click", validateForm);
+email.addEventListener("click", validateEmail);
+textBox.addEventListener("click", validateForm);
 
 enterName.addEventListener("keyup", checkIfButtonIsDisabled);
 email.addEventListener("keyup", checkIfButtonIsDisabled);

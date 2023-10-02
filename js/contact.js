@@ -76,7 +76,7 @@ textBox.addEventListener("keyup", checkIfButtonIsDisabled);
 function submitForm(event) {
     event.preventDefault();
 
-    message.innerHTML = `<div class="message">Your message has been sent.</div>`;
+    message.innerHTML = `<div class="message">Your message has been sent</div>`;
     form.reset();
 }
 

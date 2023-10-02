@@ -276,9 +276,11 @@
     }
 
     .message {
-      font-size: 14px;
-      width: 180px;
-      padding-left: 15px;
+      font-size: 10px;
+      width: 140px;
+      padding-left: 18px;
+      margin-bottom: 0px;
+      margin-top: 0px;
     }
 
     .form-error, #messageError {

@@ -50,12 +50,15 @@ function checkIfButtonIsDisabled() {
     }
 }
 
+enterName.addEventListener("keyup", checkIfButtonIsDisabled);
+email.addEventListener("keyup", checkIfButtonIsDisabled);
+textBox.addEventListener("keyup", checkIfButtonIsDisabled);
+
 function eventChange(event) {
     if (checkLength(enterName.value, 2) && checkLength(textBox.value, 10) && validateEmail(email.value)) {
         emailError.innerHTML = "";
         messageError.innerHTML = "";
         nameError.innerHTML = "";
-
     } else {
         validateForm(event);
     }
@@ -69,15 +72,12 @@ enterName.addEventListener("click", validateForm);
 email.addEventListener("click", validateForm);
 textBox.addEventListener("click", validateForm);
 
-enterName.addEventListener("keyup", checkIfButtonIsDisabled);
-email.addEventListener("keyup", checkIfButtonIsDisabled);
-textBox.addEventListener("keyup", checkIfButtonIsDisabled);
-
 function submitForm(event) {
     event.preventDefault();
 
     message.innerHTML = `<div class="message">Your message has been sent</div>`;
     form.reset();
+    button.disabled = true;
 }
 
 form.addEventListener("submit", submitForm);

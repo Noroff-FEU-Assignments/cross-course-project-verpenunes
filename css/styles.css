@@ -45,6 +45,7 @@ nav a:hover {
 
 #hamburger-menu:checked ~ nav {
   display: block;
+  font-size: 13px;
 }
 
 .underline {
@@ -63,6 +64,7 @@ svg {
   justify-content: center;
   border-style: solid;
   margin-bottom: 20px;
+  margin-top: 0px;
   border-color: rgb(204, 199, 199);
 }
 

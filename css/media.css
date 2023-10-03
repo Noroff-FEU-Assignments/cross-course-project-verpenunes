@@ -11,8 +11,8 @@
     nav, #hamburger-menu {
       display: none;
       position: absolute;
-      top: 8px;
-      left: 50px;
+      top: 7px;
+      left: 70px;
     }
   
     nav ul {
@@ -21,15 +21,17 @@
       background: #dddddd;
       border-style: solid;
       border-color: #ded6d6;
-      margin-top: 18px;
-      padding-bottom: 30px;
+      margin-top: 15px;
+      margin-left: 6px;
+      padding-bottom: 22px;
       padding-top: 0px;
       padding-left: 15px;
     }
 
     nav li {
-      margin-top: 20px;
-      padding-top: 5px;
+      margin-top: 18px;
+      padding-top: 8px;
+      padding-bottom: 8px;
     }
   
     .logo {
@@ -41,8 +43,8 @@
     }
 
     .fa-solid {
-      font-size: 19px;
-      margin-left: 30px;
+      font-size: 21px;
+      margin-left: -30px;
     }
 
     footer {
@@ -251,28 +253,20 @@
     }
 
     .form-box h2 {
-      margin-right: 100px;
-      font-size: 20px;
+      font-size: 24px;
     }
 
-    hr {
-      margin-right: 100px;
-    }
-
-    .contact-form p {
-      font-size: 20px;
-    }
-
-    input {
+    input, label, textarea {
       width: 68%;
+      margin-left: 70px;
     }
 
     textarea {
       width: 70%;
     }
 
-    .form-box {
-      margin-left: 100px;
+    .container.form {
+      display: flex;
     }
 
     .message {
@@ -285,11 +279,11 @@
 
     .form-error, #messageError {
       font-size: 10px;
+      margin-left: 70px;
     }
 
     button {
-      margin: 0 auto;
-      margin-top: 15px;
+      margin-left: 118px;
     }
   }
 
@@ -302,31 +296,22 @@
     hr {
       margin-right: 50px;
     }
-    .contact-form p {
-      font-size: 24px;
-    }
 
     .contact-form {
       font-size: 22px;
     }
 
     input {
-      width: 88%;
-      font-size: 12px;
+      width: 72%;
+      font-size: 10px;
     }
 
     textarea {
-      width: 90%;
+      width: 74%;
     }
 
     .form-box {
       margin-left: 50px;
-    }
-
-    button {
-      display: flex;
-      justify-content: center;
-      align-items: center;
     }
 
     .message {
@@ -336,11 +321,11 @@
 
     .form-error, #messageError {
       font-size: 13px;
+      margin-left: 70px;
     }
 
     button {
-      margin: 0 auto;
-      margin-top: 15px;
+      margin-left: 140px;
     }
   }
   
@@ -354,16 +339,12 @@
       margin-right: 10px;
     }
 
-    .contact-form p {
-      font-size: 30px;
-    }
-
     input {
-      width: 98%;
+      width: 70%;
     }
 
     textarea {
-      width: 100%;
+      width: 72%;
     }
 
     .form-box {
@@ -377,11 +358,6 @@
 
     .form-error, #messageError {
       font-size: 15px;
-    }
-
-    button {
-      margin: 0 auto;
-      margin-top: 12px;
     }
   }
   

@@ -235,13 +235,13 @@
   /* Media queries - About us page */
   @media (min-width: 300px) {
     .about {
-      max-width: 350px;
+      max-width: 250px;
     }
   }
   
   @media (min-width: 600px) {
     .about {
-      max-width: 490px;
+      max-width: 450px;
     }
   }
   

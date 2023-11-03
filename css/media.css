@@ -429,7 +429,7 @@
       margin-top: -50px;
     }
     .easy {
-      margin: 0 auto;
+
       padding-top: 60px;
     }
 
@@ -511,6 +511,21 @@
     .add-cart-button,
     .cta {
     padding: 10px 60px;
+    }
+
+    .easy-payment {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: -400px;
+    }
+
+    .easy {
+      margin-left: -100px;
+    }
+
+    .add-cart-button {
+      margin-left: -160px;
     }
   }
   

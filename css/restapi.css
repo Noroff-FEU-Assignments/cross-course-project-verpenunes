@@ -1,0 +1,82 @@
+.newProducts{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .product-image {
+    margin-top: 0px;
+    padding-top: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 140px 200px;
+    background-position: center;
+  }
+
+  .product-image-detail {
+    margin-top: 0px;
+    padding-top: 2px;
+    margin-bottom: 190px;
+    max-width: 100%;
+    height: 600px;
+    max-height: 250px;
+    background-repeat: no-repeat;
+    background-size: 190px 250px;
+    background-position: left;
+  }
+
+  h4 {
+    font-size: 13px;
+    max-width: 240px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: -60px;
+    padding-top: 0px;
+  }
+
+  .detail-container {
+    display: flex;
+  }
+  
+  .productName {
+    margin-top: 80px;
+    padding-top: 80px;
+    text-decoration: none;
+    color: black;
+  }
+
+  .productName-detail {
+    margin-top: 50px;
+    padding-top: 0px;
+    margin: 0 auto;
+    margin-left: 200px;
+  }
+  
+  .productPrice {
+    padding-top: 0px;
+    font-size: 30px;
+  }
+
+  .productPrice-detail {
+    margin-top: 0px;
+    margin-bottom: 25px;
+    margin-left: 200px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 22px;
+  }
+
+  .productDetail {
+    text-decoration: none;
+    color:black
+  }
+
+  .game-details {
+    color: black;
+  }
+
+  .value {
+    margin-left: 400px;
+    margin-top: -280px;
+  }

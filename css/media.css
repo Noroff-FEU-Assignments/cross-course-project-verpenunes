@@ -230,6 +230,52 @@
       padding: 0px 40px;
       font-size: 13px;
     }
+
+    .product-image {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      background-repeat: no-repeat;
+      background-size: 160px 220px;
+      background-position: left;
+      padding-top: 210px;
+      margin-right: -90px;
+      margin-bottom: 80px;
+    }
+
+    .greenButton {
+      background-color: #1b6b1e;
+      color: #fffefe;
+      font-size: 12px;
+      text-decoration: none;
+      border-radius: 50px;
+      padding: 8px 10px;
+      text-decoration: none;
+    }
+
+    .newbutton {
+      margin-left: -160px;
+      margin-top: 10px;
+      text-decoration: none;
+    }
+
+    .productName {
+      margin-top: 110px;
+      margin-left: 10px;
+      text-decoration: none;
+    }
+    
+    .newProducts {
+      display: flex;
+      margin-left: 100px;
+      text-decoration: none;
+    }
+
+    h4 {
+      color: #1b6b1e;
+      text-decoration: none;
+    }
+
   }
   
   /* Media queries - About us page */
@@ -469,6 +515,7 @@
 
     .pingpong-photo {
       display: flex;
+      gap: 10px
     }
   
     .pingpong-photo p {
@@ -503,7 +550,7 @@
     }
 
     #buy {
-      width: 50px;
+      width: 62px;
       margin-top: 2px;
       margin-left: 50px;
     }

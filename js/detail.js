@@ -25,8 +25,8 @@ fetchGame();
 function createHtml(details) {
     detailContainer.innerHTML = `<div class="detail-container"><div class="product-image-detail" 
                                  style="background-image:url(${details.images[0].src});"</div>
-                                 <div class="productName-detail"><h2>${details.name}</h2></div>
-                                 <div class="productPrice-detail"><h3>${details.price_html}</h3></div>
+                                 <div class="productName-detail"><p>${details.name}</p></div>
+                                 <div class="productPrice-detail"><p>${details.price_html}</p></div>
                                  </div>
                                  `;                   
 }

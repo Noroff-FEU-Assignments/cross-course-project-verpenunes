@@ -10,12 +10,16 @@ async function getProducts() {
     
     products.forEach(function(product){
         productContainer.innerHTML += 
-        `<a href="cart.html?id=${product.id}" class="productDetail"> 
-        <div class="product-image" style="background-image:url(${product.images[0].src})"</div>
-        <div class="productName"><h4>${product.name}</h4></div>
-        <div class="newbutton"><button class="greenButton">Add to cart</button></div>
+        `<a href="cart.html?id=${product.id}" class="productDetail">
+              <div class="product-image" style="background-image:url(${product.images[0].src})"</div>
+              <div class="productName">
+                  <h4>${product.name}</h4>
+              </div>
+              <div class="newbutton">
+                  <a href="cart.html?id=${product.id}" class="button-game-page">See more</a>
+              </div>
         </a>`;
-})
+});
 }
 
 getProducts(baseUrl);

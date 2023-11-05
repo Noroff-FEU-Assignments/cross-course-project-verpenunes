@@ -235,6 +235,24 @@ footer li {
   transform: scale(1.1);
 }
 
+.productDetail {
+  text-decoration: none;
+}
+
+.button-game-page {
+  background-color: #e95959;
+  color: #fffefe;
+  font-size: 12px;
+  border-radius: 10px;
+  text-decoration: none;
+
+}
+
+h4 {
+  color: #141614;
+  font-size: 18px;
+}
+
 /* About us Page */
 .about {
   display: flex;
@@ -328,6 +346,7 @@ label {
 
 .container-photo {
   display: flex;
+  margin: 0 auto;
   background-color: #ffffff;
   border-style: solid;
   border-radius: 5px;

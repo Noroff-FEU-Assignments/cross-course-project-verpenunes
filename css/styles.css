@@ -253,6 +253,13 @@ h4 {
   font-size: 18px;
 }
 
+.productName {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+
 /* About us Page */
 .about {
   display: flex;

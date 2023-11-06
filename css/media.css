@@ -223,13 +223,6 @@
       margin-bottom: 50px;
     }
 
-    .newbutton {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-
     .button-game-page {
       display: flex;
       flex-direction: column;
@@ -256,21 +249,23 @@
         justify-content: center;
     }
 
+    .newProducts {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      margin-left: -160px;
+      margin-right: 100px;
+      padding-left: 50px;
+    }
+
     .product-image {
       display: flex;
       flex-direction: column;
-      justify-content: center;
+      justify-content: space-evenly;
       background-repeat: no-repeat;
       background-size: 180px 256px;
       background-position: center;
       margin-bottom: 50px;
       margin-top: -90px;
-    }
-
-    .newbutton {
-      display: flex;
-      justify-content: center;
-      margin-bottom: 20px;
     }
 
     .button-game-page {
@@ -301,55 +296,42 @@
 
     .productDetail {
       display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
     }
 
     .product-image {
       display: flex;
       flex-direction: row;
       justify-content: space-evenly;
-      align-items: center;
-      width: 100%;
       background-repeat: no-repeat;
       background-size: 164px 226px;
-      background-position: left;
+      background-position: right;
+      background-position-x: center;
+      background-position-y: center;
+      background-size: contain;
       padding-top: 250px;
       margin-bottom: 80px;
     }
 
     .button-game-page {
       display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 10px 50px;
-      font-size: 15px;
-      margin-top: 10px;
-    }
-
-    .newbutton {
-      display: flex;
-      justify-content: space-evenly;
-      align-items: center;
-      margin-left: -195px;
-      margin-top: 140px;
+      font-size: 12px;
+      white-space: nowrap;
+      margin-top: 0px;
     }
 
     .productName {
-      margin-top: 10px;
-      margin-left: -80px;
+      display: inline-block;
+      margin-top: 50px;
+      white-space: nowrap;
     }
     
     .newProducts {
       display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-left: 150px;
+      justify-content: space-around;
+      margin-left: 0px;
     }
   }
 
-  
   /* Media queries - About us page */
   @media (min-width: 300px) {
     .about {
@@ -543,12 +525,12 @@
     }
   
     .select {
-      margin-left: 110px;
-      margin-top: -50px;
+      margin-left: -110px;
+      margin-top: -150px;
     }
     .easy {
-
-      padding-top: 60px;
+      padding-top: -60px;
+      margin-left: -260px;
     }
 
     .number {
@@ -557,9 +539,8 @@
     }
 
     #buy {
-      width: 50px;
-      margin-left: 50px;
-      margin-top: 3px;
+      width: 60px;
+      margin-left: -200px;
       padding: 6px 10px;
     }
   
@@ -575,6 +556,12 @@
     .add-cart-button,
     .cta {
     padding: 10px 60px;
+    margin-left: 0px;
+    }
+
+    .procuctPrice-detail {
+
+      margin-top: -200px;
     }
   }
   
@@ -630,6 +617,7 @@
     .add-cart-button,
     .cta {
     padding: 10px 60px;
+    margin-left: 0px;
     }
 
     .easy-payment {
@@ -641,6 +629,7 @@
 
     .easy {
       margin-left: -100px;
+      margin-top: 40px;
     }
 
     .add-cart-button {

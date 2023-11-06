@@ -11,13 +11,20 @@ const url = "https://cors.noroff.dev/https://game-hub.store/wp-json/wc/store/pro
 console.log(url);
 
 async function fetchGame() {
-    const response = await fetch(url);
-    const details = await response.json();
 
-    console.log(details);
-
-    createHtml(details);
-
+    try {
+        const response = await fetch(url);
+        const details = await response.json();
+    
+        console.log(details);
+    
+        createHtml(details);
+    
+    }
+    catch(error) {
+        console.log(error);
+        detailContainer.innerHTML = message("error", error);
+    }
 }
 
 fetchGame();

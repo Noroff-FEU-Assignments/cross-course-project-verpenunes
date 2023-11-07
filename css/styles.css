@@ -373,6 +373,13 @@ label {
   color: #3dbe50;
 }
 
+.detail-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 /* Thank You Page */
 .thankyou {
   display: flex;

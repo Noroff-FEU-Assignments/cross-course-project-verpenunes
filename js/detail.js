@@ -36,6 +36,7 @@ function createHtml(details) {
                                       </div>
                                       <div class="productName-detail"><p>${details.name}</p></div>
                                       <div class="productPrice-detail"><p>${details.price_html}</p></div>
+                                      <div class="productPrice-descripition"><h4>${details.short_description}</h4></div>
                                  </div>
                                  `;                   
 }

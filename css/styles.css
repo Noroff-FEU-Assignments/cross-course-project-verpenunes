@@ -193,6 +193,7 @@ footer li {
   width: 140px;
   margin-top: 20px;
   margin-bottom: 10px;
+  box-shadow: 6px 3px 3px rgb(148, 136, 136);
 }
 
 .product-list {
@@ -336,10 +337,6 @@ label {
 .white-box {
   display: grid;
   justify-content: center;
-}
-
-.games {
-  box-shadow: 6px 3px 3px rgb(148, 136, 136);
 }
 
 .container-photo {

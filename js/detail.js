@@ -40,5 +40,3 @@ function createHtml(details) {
                                  </div>
                                  `;                   
 }
-
-/* <div class="productPrice-descripition"><h4>${details.short_description}</h4></div>*/

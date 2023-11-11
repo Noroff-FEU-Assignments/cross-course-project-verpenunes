@@ -693,8 +693,9 @@
 
     .add-cart-button,
     .cta {
-    padding: 10px 60px;
-    margin-left: 0px;
+    padding: 14px 70px;
+    margin-left: -33px;
+    font-size: 18px;
     }
 
     .easy-payment {
@@ -706,7 +707,7 @@
 
     .easy {
       margin-left: -100px;
-      margin-top: 120px;
+      margin-top: 140px;
     }
 
     .add-cart-button {
@@ -715,7 +716,7 @@
 
     .product-image-detail {
       margin-top: 0px;
-      padding-top: 2px;
+      padding-top: 2px; 
       margin-bottom: 190px;
       max-width: 100%;
       height: 600px;
@@ -726,19 +727,16 @@
     }
   
     .productName-detail {
-      margin-top: 50px;
       padding-top: 0px;
       margin: 0 auto;
-      margin-left: 200px;
+      margin-left: 150px;
     }
   
     .productPrice-detail {
       margin-top: 0px;
       margin-bottom: 25px;
-      margin-left: 200px;
-      padding-top: 0px;
+      margin-left: 150px;
       padding-bottom: 0px;
-      font-size: 22px;
     }
 
     .productPrice-descripition p {
@@ -750,8 +748,8 @@
     }
   
     .value {
-      margin-left: 400px;
-      margin-top: -280px;
+      margin-left: 380px;
+      margin-top: -290px;
     }
   }
 

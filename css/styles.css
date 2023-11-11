@@ -219,10 +219,9 @@ footer li {
 }
 
 .cta {
-  background-color: #f21b1b;
-  color: #fffefe;
+  background-color: #e95959;
+  color: #ffffff;
   text-align: center;
-  font-size: 14px;
   text-decoration: none;
   border-radius: 50px;
 }

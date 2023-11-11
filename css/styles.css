@@ -1,0 +1,412 @@
+@font-face {
+  font-family: "New Peninim MT";
+  src: url("/fonts/new-peninim-mt-bold-2.woff") format("woff");
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "New Peninim MT", Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  font-size: 90%;
+  background-color: #dddddd;
+  padding: 0px;
+  margin: 0px;
+}
+
+main {
+  flex-grow: 1;
+}
+
+/* Nav Menu */
+nav li {
+  align-items: center;
+  margin: 0 15px;
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 0px;
+  list-style: none;
+  height: 5px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #070606;
+}
+
+nav a:hover {
+  color:#f2b705;
+  transition: 0.3s;
+}
+
+#hamburger-menu {
+  display: none;
+}
+
+#hamburger-menu:checked ~ nav {
+  display: block;
+  font-size: 13px;
+}
+
+.underline {
+  text-decoration: underline 3px #f2b705;
+}
+
+svg {
+  font-weight: bold;
+  color: #070606;
+  width: 14px;
+}
+
+.yellow {
+  display: flex;
+  background-color: #f2b705;
+  justify-content: center;
+  border-style: solid;
+  margin-bottom: 20px;
+  margin-top: 0px;
+  border-color: rgb(204, 199, 199);
+}
+
+.logo {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Home Page */
+
+h1 {
+  font-family: "Tahoma", Geneva, Verdana, sans-serif;
+  background-color: #3d5ee8;
+  color: #ffffff;
+  line-height: 28px;
+  text-align: center;
+  padding: 5px 10px 5px 10px;
+  font-size: 1.3em;
+  letter-spacing: 0.1em;
+}
+
+img {
+  display: flex;
+  justify-content: space-between;
+  max-width: 300px;
+}
+
+.photos a:hover {
+  background-color: rgb(90, 172, 235);
+  transition-delay: 0.2s;
+}
+
+.photos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.photo {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.photo-chair {
+  height: 200px;
+  margin-top: -20px;
+  width: 100%;
+}
+
+.photos a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+  background: transparent;
+  border-radius: 40px;
+  border-width: 2px;
+  border-color: #ffffff;
+  border-style: solid;
+  position: absolute;
+}
+
+.photo a {
+  display: flex;
+  margin-top: 120px;
+}
+
+.video-game {
+  padding: 5px 40px;
+}
+
+.pc-game {
+  padding: 5px 45px;
+  letter-spacing: 0.1em;
+}
+
+.deals {
+  padding: 5px 62px;
+  letter-spacing: 0.1em;
+}
+
+svg,
+header i,
+#buy:hover {
+  cursor: pointer;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  margin-left: 130px; 
+}
+
+.fa-brands {
+  font-weight: bold;
+  font-size: 26px;
+  padding: 18px;
+  margin-top: 10px;
+  color:#939191;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #070606;
+  color: #ffffff;
+  line-height: 20px;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+footer li {
+  list-style: none;
+}
+
+.copyRight {
+  font-size: 12px;
+}
+
+/* List of Games Page */
+.games {
+  width: 140px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  box-shadow: 6px 3px 3px rgb(148, 136, 136);
+}
+
+.product-list {
+  margin-bottom: 60px;
+}
+
+.products {
+  margin: auto;
+}
+
+.products a {
+  display: flex;
+  justify-content: center;
+  padding: 6px 40px;
+}
+
+.products p {
+  margin-top: -10px;
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 5px;
+  padding-top: 2px;
+}
+
+.cta {
+  background-color: #f21b1b;
+  color: #fffefe;
+  text-align: center;
+  font-size: 14px;
+  text-decoration: none;
+  border-radius: 50px;
+}
+
+.products a {
+  transition: transform 0.4s;
+  transition-delay: 0.2s;
+}
+
+.products a:hover {
+  transform: scale(1.1);
+}
+
+.productDetail {
+  text-decoration: none;
+}
+
+.button-game-page {
+  background-color: #e95959;
+  color: #fffefe;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+h4 {
+  color: #141614;
+  font-size: 18px;
+}
+
+/* About us Page */
+.about {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+h2,
+h3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+/* Contact us page */
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  width: 100%;
+  margin-top: 10px;
+  padding: 6px;
+  font-size: 12px;
+  margin-right: 195px;
+}
+
+hr {
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(to right, transparent, #CCC, transparent);
+}
+
+button {
+  background: #D2232A;
+  border: none;
+  width: 200px;
+  padding: 1rem;
+  color: white;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+button:disabled {
+  background: rgb(78, 73, 73);
+}
+
+label {
+  display: block;
+  margin-top: 0.6rem;
+}
+
+.form-error {
+  display: none;
+  color: red;
+  font-size: 0.7rem;
+  margin-top: 2px;
+}
+
+.message {
+  margin-top: 135px;
+  background: rgb(62, 165, 62);
+  padding: 0.6rem;
+  color: white;
+  border-radius: 0.4rem;
+  margin-bottom: 1rem;
+  margin: 0 auto;
+}
+
+/* Your Cart page */
+.white-box {
+  display: grid;
+  justify-content: center;
+}
+
+.container-photo {
+  display: flex;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1px;
+}
+
+.number {
+  display:flex;
+  align-items: center;
+}
+
+.cart {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+.cart p::after {
+  content: "";
+  display: block;
+  border: 1px solid rgb(14, 1, 1);
+  padding: 0;
+}
+
+.easy {
+  color: #3dbe50;
+}
+
+.detail-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Thank You Page */
+.thankyou {
+  display: flex;
+  justify-content: center;
+}
+
+.orderno {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.ok {
+  width: 100px;
+}
+
+.button-continue {
+  display: flex;
+  justify-content: center;
+  margin-top: -60px;
+}
+
+.continue {
+  text-decoration: none;
+  background-color: #3dbe50;
+  border-radius: 10px;
+  color: #ffffff;
+  white-space: nowrap;
+}
+
+
+
+

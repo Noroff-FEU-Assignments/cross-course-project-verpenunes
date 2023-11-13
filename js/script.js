@@ -8,9 +8,8 @@ async function getGames() {
     const games = await response.json();
     //console.log(games);
 
-    //let gamesToRender = games;
-    //renderGames(gamesToRender);
-    //searchGames(gamesToRender);
+    renderGames(games);
+    searchGames(games);
 }
 
 getGames(gamesUrl);

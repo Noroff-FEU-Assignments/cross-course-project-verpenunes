@@ -9,8 +9,8 @@ async function getGames() {
     //console.log(games);
 
     //let gamesToRender = games;
-    renderGames(gamesToRender);
-    searchGames(gamesToRender);
+    //renderGames(gamesToRender);
+    //searchGames(gamesToRender);
 }
 
 getGames(gamesUrl);

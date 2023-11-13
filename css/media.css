@@ -316,6 +316,10 @@
       justify-content: space-around;
       margin-left: 0px;
     }
+
+    .search {
+      display: block;
+    }
   }
 
   /* Media queries - About us page */

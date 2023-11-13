@@ -189,7 +189,8 @@ footer li {
 }
 
 /* List of Games Page */
-.games {
+
+/*.games {
   width: 140px;
   margin-top: 20px;
   margin-bottom: 10px;
@@ -216,22 +217,14 @@ footer li {
   font-weight: 600;
   margin-left: 5px;
   padding-top: 2px;
-}
+}*/
 
-.cta {
-  background-color: #e95959;
-  color: #ffffff;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50px;
-}
-
-.products a {
-  transition: transform 0.4s;
+.productName a {
+  transition: transform 0.3s;
   transition-delay: 0.2s;
 }
 
-.products a:hover {
+.productName a:hover {
   transform: scale(1.1);
 }
 
@@ -249,6 +242,14 @@ footer li {
 h4 {
   color: #141614;
   font-size: 18px;
+}
+
+.search {
+  margin-top: -8px;
+  margin-bottom: 82px;
+  padding: 0.5rem;
+  width: 18%;
+  margin-left: 130px;
 }
 
 /* About us Page */
@@ -363,6 +364,14 @@ label {
   display: block;
   border: 1px solid rgb(14, 1, 1);
   padding: 0;
+}
+
+.cta {
+  background-color: #e95959;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 40px;
 }
 
 .easy {

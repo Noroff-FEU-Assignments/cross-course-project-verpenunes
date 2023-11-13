@@ -205,11 +205,6 @@
   
   /* Media Query - List of Games Page */
   @media (min-width: 300px) {
-    .product-list {
-      display: flex;
-      flex-direction: column;
-    }
-
     .product-image {
       display: flex;
       flex-direction: column;
@@ -233,17 +228,11 @@
     }
 
     .productName {
-      margin-top: 340px;
+      margin-top: 350px;
     }
   }
   
   @media (min-width: 600px) {
-    .product-list {
-      display: grid;
-      column-gap: 70px;
-      grid-template-columns: 1fr 1fr;
-    }
-
     .productDetail {
         display: flex;
         justify-content: center;
@@ -260,12 +249,11 @@
     .product-image {
       display: flex;
       flex-direction: column;
-      justify-content: space-evenly;
       background-repeat: no-repeat;
       background-size: 180px 256px;
       background-position: center;
       background-size: contain;
-      margin-bottom: 50px;
+      margin-bottom: 90px;
       margin-top: -90px;
     }
 
@@ -278,25 +266,14 @@
       padding: 12px 50px;
     }
 
-    .productName {
-      margin-top: 360px;
+    .name-product {
+      margin-top: 12px;
     }
   }
   
   @media (min-width: 800px)  {
-    .product-list {
-      display: grid;
-      column-gap: 100px;
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    }
-
-    .cta {
-      padding: 0px 40px;
-      font-size: 13px;
-    }
-
-    .productDetail {
-      display: flex;
+    h2 {
+      margin-top: 6px;
     }
 
     .product-image {
@@ -509,7 +486,7 @@
 
     .add-cart-button,
     .cta {
-    padding: 8px 50px;
+    padding: 12px 50px;
     }
 
     .product-image-detail {
@@ -596,7 +573,7 @@
 
     .add-cart-button,
     .cta {
-    padding: 10px 60px;
+    padding: 15px 60px;
     margin-left: 0px;
     }
 

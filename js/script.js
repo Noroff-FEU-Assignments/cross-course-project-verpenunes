@@ -1,15 +1,15 @@
 import { renderGames } from "./ui/renderGames.js";
 import { searchGames } from "./ui/searchGames.js";
 
-const gamesUrl = "https://cors.noroff.dev/https://game-hub.store/wp-json/wc/store/products";
+//const gamesUrl = "https://cors.noroff.dev/https://game-hub.store/wp-json/wc/store/products";
 
 async function getGames() {
     const response = await fetch(gamesUrl);
     const games = await response.json();
     //console.log(games);
 
-    renderGames(games);
-    searchGames(games);
+    //renderGames(games);
+    //searchGames(games);
 }
 
 getGames(gamesUrl);

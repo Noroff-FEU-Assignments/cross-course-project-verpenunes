@@ -21,14 +21,4 @@ async function getProducts() {
 getProducts();
 
 
-const button = document.querySelector(".add-cart-button a");
 
-//console.log(button);
-
-button.addEventListener("mouseover", () => {
-    button.style.backgroundColor = "green";
-});
-
-button.addEventListener("mouseout", () => {
-    button.style.backgroundColor = "";
-});

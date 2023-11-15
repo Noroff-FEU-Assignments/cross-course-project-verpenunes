@@ -190,35 +190,6 @@ footer li {
 
 /* List of Games Page */
 
-/*.games {
-  width: 140px;
-  margin-top: 20px;
-  margin-bottom: 10px;
-  box-shadow: 6px 3px 3px rgb(148, 136, 136);
-}
-
-.product-list {
-  margin-bottom: 60px;
-}
-
-.products {
-  margin: auto;
-}
-
-.products a {
-  display: flex;
-  justify-content: center;
-  padding: 6px 40px;
-}
-
-.products p {
-  margin-top: -10px;
-  font-size: 15px;
-  font-weight: 600;
-  margin-left: 5px;
-  padding-top: 2px;
-}*/
-
 .productName a {
   transition: transform 0.3s;
   transition-delay: 0.2s;

@@ -11,7 +11,6 @@ const url = "https://cors.noroff.dev/https://game-hub.store/wp-json/wc/store/pro
 console.log(url);
 
 async function fetchGame() {
-
     try {
         const response = await fetch(url);
         const details = await response.json();
@@ -40,3 +39,14 @@ function createHtml(details) {
                                  </div>
                                  `;                   
 }
+
+//Mouseover cart.html//
+const button = document.querySelector(".add-cart-button a");
+//console.log(button);
+button.addEventListener("mouseover", () => {
+    button.style.backgroundColor = "green";
+});
+
+button.addEventListener("mouseout", () => {
+    button.style.backgroundColor = "";
+});

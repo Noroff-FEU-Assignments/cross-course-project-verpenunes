@@ -1,6 +1,6 @@
 import { renderGames } from "./renderGames.js";
 
-export function searchGames(games) {
+export function searchGames(products) {
     const search = document.querySelector(".search");
 
     search.onkeyup = function(event) {
@@ -8,7 +8,7 @@ export function searchGames(games) {
 
         const searchValue = event.target.value.trim().toLowerCase();
 
-        const filteredGames = games.filter(function(game) {
+        const filteredGames = products.filter(function(game) {
             if (game.name.toLowerCase().startsWith(searchValue)) {
                 return true;
             }
@@ -16,5 +16,5 @@ export function searchGames(games) {
 
         renderGames(filteredGames);
 
-    };
+    }; 
 }

@@ -1,18 +1,24 @@
 import { renderGames } from "./ui/renderGames.js";
 import { searchGames } from "./ui/searchGames.js";
 
-//const gamesUrl = "https://cors.noroff.dev/https://game-hub.store/wp-json/wc/store/products";
+const baseUrl = "https://cors.noroff.dev/https://game-hub.store/wp-json/wc/store/products";
 
-async function getGames() {
-    const response = await fetch(gamesUrl);
-    const games = await response.json();
-    //console.log(games);
+async function getProducts() {
+   try {
+        const response = await fetch(baseUrl);
+        const products = await response.json();
+        console.log(products);
 
-    //renderGames(games);
-    //searchGames(games);
+        renderGames(products);
+        searchGames(products);
+        
+    } catch(error) {
+        console.log(error);
+        productContainer.innerHTML = message("error", error);
+    }
 }
 
-getGames(gamesUrl);
+getProducts();
 
 
 const button = document.querySelector(".add-cart-button a");
@@ -26,15 +32,3 @@ button.addEventListener("mouseover", () => {
 button.addEventListener("mouseout", () => {
     button.style.backgroundColor = "";
 });
-
-//const hamburgerMenu = document.querySelector("#hamburger-menu");
-
-//console.log(hamburgerMenu);
-
-//hamburgerMenu.addEventListener("mouseover", () => {
-    //hamburgerMenu.color = "yellow";
-//});
-
-//hamburgerMenu.addEventListener("mouseout", () => {
-    //hamburgerMenu.color = "";
-//});

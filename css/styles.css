@@ -239,6 +239,10 @@ footer li {
   text-decoration: none;
 }
 
+.product-image {
+  margin: 0 auto;
+}
+
 h4 {
   color: #141614;
   font-size: 18px;

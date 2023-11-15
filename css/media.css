@@ -218,7 +218,7 @@
       background-size: 180px 256px;
       background-position: center;
       padding-bottom: 0px;
-      margin-top: -65px;
+      margin-top: -50px;
       margin-bottom: 50px;
     }
 
@@ -237,9 +237,10 @@
 
     .search {
       display: block;
-      width: 40%;
+      width: 43%;
       margin: 0 auto;
       padding-left: 12px;
+      margin-bottom: 50px;
     }
   }
   

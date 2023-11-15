@@ -219,14 +219,6 @@ h4 {
   font-size: 18px;
 }
 
-.search {
-  margin-top: -8px;
-  margin-bottom: 82px;
-  padding: 0.5rem;
-  width: 18%;
-  margin-left: 130px;
-}
-
 /* About us Page */
 .about {
   display: flex;

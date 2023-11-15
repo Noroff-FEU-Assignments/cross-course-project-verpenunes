@@ -205,6 +205,10 @@
   
   /* Media Query - List of Games Page */
   @media (min-width: 300px) {
+    h2 {
+      margin-top: 8px;
+    }
+
     .product-image {
       display: flex;
       flex-direction: column;
@@ -214,7 +218,7 @@
       background-size: 180px 256px;
       background-position: center;
       padding-bottom: 0px;
-      margin-top: -90px;
+      margin-top: -65px;
       margin-bottom: 50px;
     }
 
@@ -228,11 +232,14 @@
     }
 
     .productName {
-      margin-top: 350px;
+      margin-top: 350px;  
     }
 
     .search {
-      display: none;
+      display: block;
+      width: 40%;
+      margin: 0 auto;
+      padding-left: 12px;
     }
   }
   
@@ -250,6 +257,11 @@
       padding-left: 50px;
     }
 
+    h2 {
+      margin-top: 5px;
+      margin-bottom: 30px;
+    }
+
     .product-image {
       display: flex;
       flex-direction: column;
@@ -257,8 +269,8 @@
       background-size: 180px 256px;
       background-position: center;
       background-size: contain;
-      margin-bottom: 90px;
-      margin-top: -90px;
+      margin-bottom: 100px;
+      margin-top: -70px;
     }
 
     .button-game-page {
@@ -271,11 +283,15 @@
     }
 
     .name-product {
-      margin-top: 12px;
+      margin-top: 0px;
     }
 
     .search {
-      display: none;
+      display: block;
+      width: 30%;
+      margin: 0 auto;
+      padding-left: 12px;
+      margin-bottom: 34px;
     }
   }
   
@@ -296,18 +312,18 @@
       background-size: contain;
       padding-top: 250px;
       margin-bottom: 80px;
+      margin-top: 0px;
     }
 
     .button-game-page {
       display: flex;
       font-size: 12px;
       white-space: nowrap;
-      margin-top: 0px;
     }
 
     .productName {
       display: inline-block;
-      margin-top: 50px;
+      margin-top: 40px;
       white-space: nowrap;
     }
     
@@ -319,6 +335,9 @@
 
     .search {
       display: block;
+      width: 18%;
+      margin-left: 100px;
+      margin-bottom: 8px;
     }
   }
 

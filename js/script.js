@@ -20,5 +20,8 @@ async function getProducts() {
 
 getProducts();
 
-
-
+//const gameDiv = document.querySelector(".newProducts");
+//gameDiv.innerHTML = baseUrl;
+//document.querySelector(".sort").addEventListener("click", function(gameList) {
+//gameDiv.sort(baseUrl);
+//})

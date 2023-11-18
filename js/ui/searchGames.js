@@ -9,7 +9,7 @@ export function searchGames(products) {
         const searchValue = event.target.value.trim().toLowerCase();
 
         const filteredGames = products.filter(function(game) {
-            if (game.name.toLowerCase().startsWith(searchValue)) {
+            if (game.name.toLowerCase().includes(searchValue)) {
                 return true;
             }
         });

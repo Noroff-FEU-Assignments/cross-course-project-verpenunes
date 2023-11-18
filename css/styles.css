@@ -219,6 +219,14 @@ h4 {
   font-size: 18px;
 }
 
+.sort {
+  display: none;
+  color: #eceff1;
+  background-color: #3496b1;
+  width: 8%;
+  padding: 10px;
+}
+
 /* About us Page */
 .about {
   display: flex;

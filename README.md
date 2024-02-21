@@ -27,4 +27,7 @@ The project explore utilizing the WordPress REST API for content management, all
   ```
   npm install
   ```
+## Contact
 
+
+[My LinkedIn page](www.linkedin.com)

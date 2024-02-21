@@ -31,6 +31,12 @@ Upload and install on your chosen hosting provider.
 
 This is accomplished using the hosting`s file manager or FTP. 
 
+### Running
+
+```
+npm run start
+```
+
 ## Contributing
 
 1. Fork it!
@@ -40,7 +46,7 @@ This is accomplished using the hosting`s file manager or FTP.
 5. Push to the branch: `git push origin my-new-feature`
 6. Submit a pull request
 
-- Add a title os a description that let clear your suggestion :).
+- Add a title os a description that let clear your suggestion.
 
 **After your pull request is merged** 
 

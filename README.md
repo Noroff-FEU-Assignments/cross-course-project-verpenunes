@@ -27,6 +27,10 @@ The project explore utilizing the WordPress REST API for content management, all
   ```
   npm install
   ```
+Upload and install on your chosen hosting provider.
+
+This is accomplished using the hosting`s file manager or FTP. 
+
 ## Contributing
 
 1. Fork it!
@@ -45,4 +49,4 @@ The project explore utilizing the WordPress REST API for content management, all
 ## Contact
 
 
-[My LinkedIn page](www.linkedin.com)
+[My LinkedIn page](https://www.linkedin.com/in/rinun/)

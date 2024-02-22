@@ -22,14 +22,13 @@ The project explore utilizing the WordPress REST API for content management, all
    ```bash
    git clone github.com/Noroff-FEU-Assignments/cross-course-project-verpenunes.git
    ```
-2. Install the dependencies:
+2. Open Terminal.
 
-  ```
-  npm install
-  ```
-Upload and install on your chosen hosting provider.
+3. Change the current working directory to the location where you want the cloned directory.
 
-This is accomplished using the hosting`s file manager or FTP. 
+4. Type git clone, and then paste the URL you copied earlier.
+
+5. Press Enter to create your local clone.
 
 ### Running
 

@@ -55,3 +55,7 @@ npm run start
 
 
 [My LinkedIn page](https://www.linkedin.com/in/rinun/)
+
+## License
+
+This project is licensed under a Creative Commons license. It is open for contributions, but please credit the project if you use the code in your own projects.

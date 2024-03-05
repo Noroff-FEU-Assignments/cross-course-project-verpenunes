@@ -58,4 +58,4 @@ npm run start
 
 ## License
 
-This project is licensed under a Creative Commons license. It is open for contributions, but please credit the project if you use the code in your own projects.
+No license required. Project is free to clone for example or educational purposes.

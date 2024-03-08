@@ -2,10 +2,10 @@
 
 <img width="1425" alt="bilde" src="https://github.com/Noroff-FEU-Assignments/cross-course-project-verpenunes/assets/106631829/931e58b7-a192-427c-9a93-9b6a20472ce5">
 
-[GameHub](https://symphonious-gumdrop-46d236.netlify.app/) was created using HTML, CSS and JavaScript.
+[GameHub](https://symphonious-gumdrop-46d236.netlify.app/) was created using HTML, CSS, WordPress REST API and JavaScript.
 
 ## Description
-The project explore utilizing the WordPress REST API for content management, allowing users to create and manage their own API with JavaScript.
+The project explores utilizing the WordPress REST API for content management, allowing users to create and manage their API with JavaScript.
 
 ## Build With
 <ul>
@@ -45,11 +45,11 @@ npm run start
 5. Push to the branch: `git push origin my-new-feature`
 6. Submit a pull request
 
-- Add a title os a description that let clear your suggestion.
+- Add a title or a description that makes clear your suggestion.
 
 **After your pull request is merged** 
 
-> After your pull request is merged, you can safely delete your branch.
+> After your pull request is merged, you can delete your branch.
 
 ## Contact
 
@@ -58,4 +58,4 @@ npm run start
 
 ## License
 
-No license required. Project is free to clone for example or educational purposes.
+No license is required. The project is free to clone for example or for educational purposes.

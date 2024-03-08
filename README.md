@@ -5,7 +5,7 @@
 [GameHub](https://symphonious-gumdrop-46d236.netlify.app/) was created using HTML, CSS, WordPress REST API and JavaScript.
 
 ## Description
-The project explores utilizing the WordPress REST API for content management, allowing users to create and manage their API with JavaScript.
+The project explores utilizing the WordPress REST API for content management, allowing users to create and manage their API with JavaScript.</br>
 
 ## Build With
 <ul>
